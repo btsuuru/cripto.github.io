@@ -1,4 +1,4 @@
-function getCripto(){
+/*function getCripto(){
   var resposta;
   //var url = new URL("https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"), params = {'id': '1'}
   Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
@@ -18,7 +18,7 @@ function getCripto(){
        document.getElementById('info').innerHTML= response;
      })
    }
-/*
+*/
   $.ajax({
          url: "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?slug=bitcoin,nano,tron",
          headers: {
@@ -33,7 +33,7 @@ function getCripto(){
       });
 
 
-}*/
+}
 
 /*
 
