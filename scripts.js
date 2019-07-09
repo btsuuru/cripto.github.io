@@ -4,7 +4,7 @@ function getCripto(){
   Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
    var myHeaders = new Headers({
      "content-type": "application/json",
-     'X-CMC_PRO_API_KEY': '7886dfa9-6b70-4fb9-8e7d-97faa500ff3c'
+     'X-CMC_PRO_API_KEY': '7886dfa9-6b70-4fb9-8e7d-97faa500ff3c',
      "Access-Control-Allow-Origin": '*'
    });
 
